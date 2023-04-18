@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #AA076B, #61045F);
+    overflow: hidden;
+}
+.container{
+    margin: 50px auto;
+    text-align: center;
+}
+h1{
+    font-size: 4em; /*size is relative to the size of h1*/ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+#time{
+    font-size: 5em; /* size is 5 times the size of p*/ 
+    color: #ffff;
+}
+button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.5em;
+    width: 180px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #AA076B;
+    font-weight: bold;
+}
+button:hover{ /*this is another way to say on hover*/ 
+    cursor: pointer; 
+    background-color: transparent;
+    color: #ffff;
+    transition: 0.4s;
+    border: none/*solid black 2px*/;
+}
